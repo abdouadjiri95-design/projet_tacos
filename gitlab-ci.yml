@@ -1,8 +1,0 @@
-stages:
-    test
-
-test_tacos:
-    stage: test
-    image: python3.11
-    script:
-        -python3 -m unittest discover tests
